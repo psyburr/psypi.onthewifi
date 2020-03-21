@@ -64,28 +64,23 @@
         },
 
         "WebAdmin": {
-            "Pi-hole": "admin/",
+            "Pi-hole": "http://psypi/admin",
             "PsyCloud": "nextcloud/",
             "qBittorrent@localhost": "http://localhost:48884",
-            "kodi@localhost": "http://localhost:8080"
+            "app.netlify": "https://app.netlify.com/sites/psyweb/overview"
         },
 
         "Media": {
-            "Music": "media/music/",
-            "Movies": "media/movies/",
-            "NSFW": "media/nsfw/",
-            "TV Shows": "media/tv-shows/",
-            "Videos": "media/videos/"
+            "Music": "/music/",
+            "Movies": "/movies/",
+            "NSFW": "/nsfw/",
+            "TV Shows": "/tv-shows/",
+            "Videos": "/videos/"
         }
     };
 
     var search = { // Query variable name is q, hardcoded, looks like a standard already anyways
-        "default": "https://duckduckgo.com/",
-        "amazon": "https://www.amazon.com/s?k=q&i=digital-music",
-        "beatport": "https://www.beatport.com/search?q",
-        "deezer": "https://www.deezer.com/search/=q",
-        "discogs": "https://www.discogs.com/search/?type=all&q",
-        "spotify": "https://open.spotify.com/search/q"
+        "default": "https://duckduckgo.com/"
     };
 
 // ---------- BUILD PAGE ----------
