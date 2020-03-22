@@ -64,6 +64,7 @@
         },
 
         "WebAdmin": {
+            "IceCast": "http://psypi.onthewifi.com:8000/admin/",
             "Pi-hole": "http://psypi/admin",
             "PsyCloud": "nextcloud/",
             "qBittorrent@localhost": "http://localhost:48884",
