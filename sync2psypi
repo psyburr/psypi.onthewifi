@@ -7,7 +7,7 @@ sleep 1s
 rsync -Phiame ssh /home/psyburr/.psyfiles/git/psypi.onthewifi/ psypi:/var/www/ \
 	--stats --no-p --no-g --no-t \
 	--exclude={'.git','sync2psypi'} \
-	--usermap=www-data --groupmap=www-data
+	--chown=www-data:www-data
 
 echo -e '\n\t\t Synchronization task is complete.\n'
 sleep 1s
