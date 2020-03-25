@@ -58,9 +58,9 @@ var sites = {
     },
 
     "Pi-Software": {
-        "Pi-hole": "http://psypi/admin",
-        "PsyCloud": "/nextcloud/",
-        "rutorrent": "/rutorrent/"
+        "Pi-hole": "/admin",
+        "PsyCloud": "/nextcloud",
+        "rutorrent": "/rutorrent"
     },
 
     "WebAdmin": {
