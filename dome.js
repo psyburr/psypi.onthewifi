@@ -57,25 +57,22 @@ var sites = {
         "BMI Repertoire": "https://repertoire.bmi.com/StartPage.aspx"
     },
 
-    "Docs (continued)": {
-        "Spectralgraph Study": "/html/docs/spectral_study/",
-        "tincd": "/html/docs/tincd/",
-        "tmate": "/html/docs/tmate/"
+    "Pi-Software": {
+        "Pi-hole": "http://psypi/admin",
+        "PsyCloud": "/nextcloud/",
+        "rutorrent": "/rutorrent/"
     },
 
     "WebAdmin": {
-        "Netgear": "http://192.168.0.1",
         "IceCast": "http://psypi.onthewifi.com:8000/admin/",
-        "Pi-hole": "http://psypi/admin",
-        "PsyCloud": "/nextcloud/",
-        "qBittorrent@localhost": "http://localhost:48884",
-        "app.netlify": "https://app.netlify.com/sites/psyweb/overview"
+        "Netgear": "http://192.168.0.1",
+        "Netlify": "https://app.netlify.com/sites/psyweb/overview"
     },
 
     "Media": {
-        "Music": "/html/media/music/",
+        "Mirrors": "/html/mirrors/",
         "Movies": "/html/media/movies/",
-        "NSFW": "/html/media/nsfw/",
+        "Music": "/html/media/music/",
         "TV Shows": "/html/media/tv-shows/",
         "Videos": "/html/mediavideos/"
     }
