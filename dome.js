@@ -58,15 +58,14 @@ var sites = {
     },
 
     "Pi-Software": {
-        "Pi-hole": "/admin",
         "PsyCloud": "/nextcloud",
         "rutorrent": "/rutorrent"
     },
 
     "WebAdmin": {
-        "IceCast": "http://psypi.onthewifi.com:8000/admin/",
         "Netgear": "http://192.168.0.1",
-        "Netlify": "https://app.netlify.com/sites/psyweb/overview"
+        "Netlify": "https://app.netlify.com/sites/psyweb/overview",
+        "Pi-hole": "/html/admin",
     },
 
     "Media": {
