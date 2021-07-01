@@ -5,7 +5,7 @@ echo -e '\n\t\t Copying custom homepage to PSYPI. \n'
 sleep 1s
 
 rsync -Phiame ssh /home/psyburr/.psyfiles/git/psypi.onthewifi/ root@psypi:/var/www/ \
-	--stats --no-p --no-t \
+	--stats --no-p \
 	--exclude={'.git','sync2psypi'}
 
 echo -e '\n\t\t Synchronization task is complete.\n'

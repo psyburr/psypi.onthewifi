@@ -31,22 +31,17 @@
 var sites = {
 
     "Docs": {
-        "ADB Commands": "/html/docs/adb_commands/AdbCommands.txt",
-        "clipman": "/html/docs/clipman/",
-        "FFmpeg-all": "/html/docs/ffmpeg/",
-        "LineageOS on ShieldTV": "/html/docs/install_lineageos-shieldtv/",
-        "Man-Pages": "/html/sites/man-pages/",
-        "MDN (Mozilla Docs)": "/html/docs/MDN/",
-        "MPV": "/html/docs/mpv/"
+        "FFmpeg-all": "/docs/ffmpeg/",
+        "Docs": "/docs/",
+        "MDN (Mozilla Docs)": "/docs/MDN/",
+        "MPV": "/docs/mpv/"
     },
 
     "Social": {
         "Omegle": "https://www.omegle.com",
         "whereby": "https://whereby.com/loafahbred",
-        "Reddit": "https://reddit.com/",
-        "Facebook": "https://facebook.com/",
-        "gab": "https://gab.com/home"
-    },
+        "TinyChat": "https://tinychat.com/",
+   },
 
     "MusicBrainz": {
         "MusicBrainz/psyburr": "https://musicbrainz.org",
@@ -58,22 +53,21 @@ var sites = {
     },
 
     "Pi-Software": {
-        "PsyCloud": "/nextcloud",
-        "rutorrent": "/rutorrent"
+	"Pi–hole": "/admin"
     },
 
-    "WebAdmin": {
-        "Netgear": "http://192.168.0.1",
-        "Netlify": "https://app.netlify.com/sites/psyweb/overview",
-        "Pi-hole": "/html/admin",
+    "Useful": {
+        "deepbassnine": "https://www.deepbassnine.com/index.php",
+        "ArchWiki": "https://wiki.archlinux.org",
+        "Coinbase": "https://pro.coinbase.com"
     },
 
     "Media": {
-        "Mirrors": "/html/mirrors/",
-        "Movies": "/html/media/movies/",
-        "Music": "/html/media/music/",
-        "TV Shows": "/html/media/tv-shows/",
-        "Videos": "/html/mediavideos/"
+        "Media": "/media/",
+        "Music": "/media/music/",
+        "Movies": "/media/movies/",
+        "Pictures": "/media/gallery/",
+        "TV Shows": "/media/tv-shows/"
     }
 };
 
